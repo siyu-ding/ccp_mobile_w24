@@ -178,3 +178,18 @@ p {
     height: 90%;
     border: none;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    img.gif {
+        content: url('https://images.asiahighlights.com/allpicture/2018/09/2485d4a0f923417eb47aeaf3_cut_600x800_264.jpg');
+    }
+
+    .animated-element {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .animated-background {
+        background-image: none !important;
+    }
+}
