@@ -60,17 +60,17 @@ body {
 
 .skip-link {
     position: absolute;
-    top: -40%;
+    top: -80%;
     left: 0;
     background: rgb(46, 44, 63);
     color: rgb(177, 159, 204);
-    padding: 8%;
+    padding: 5%;
     z-index: 100;
     transition: top 0.3s;
 }
 
 .skip-link:focus {
-    top: 10%;
+    top: 5%;
 }
 
 h1 {
